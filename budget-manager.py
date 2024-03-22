@@ -15,6 +15,7 @@ assistant = client.beta.assistants.create(
   instructions="You are a budget manager. Provide budgeting advice to save money or investing extra money.",
   tools=[{"type": "code_interpreter"}],
   model="gpt-3.5-turbo",
+
 )
 
 thread = client.beta.threads.create()
